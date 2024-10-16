@@ -130,3 +130,78 @@ th, td {
 tr:hover {
     background-color: rgba(255, 23, 23, 0.1);
 }
+
+/* Media Queries */
+/* Media Queries */
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .navbar {
+        font-size: medium;
+    }
+
+    .goal-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .goal-info p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0; 
+        overflow: hidden; 
+        transition: width 0.3s ease; 
+    }
+
+    .toggle-sidebar {
+        display: block; 
+        position: absolute; 
+        top: 10px; 
+        left: 10px; 
+        background-color: rgb(255, 23, 23); 
+        color: white; 
+        border: none; 
+        border-radius: 5px; 
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000; 
+    }
+}
+
+@media (min-width: 769px) {
+    .toggle-sidebar {
+        display: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-logo img {
+        height: 100px;
+    }
+
+    .sidebar-options a {
+        font-size: 0.9rem;
+    }
+
+    .goal-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .goal-info p {
+        font-size: 0.8rem;
+    }
+
+    .text-overlay h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-overlay p {
+        font-size: 0.8rem;
+    }
+}
+

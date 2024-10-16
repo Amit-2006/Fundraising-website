@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment Gateway</title>
+</head>
+
+<body>
+    <div class="payment-container">
+        <h2>Payment Gateway</h2>
+        <p>Scan the QR code below to make your payment.</p>
+        <div class="qr-code">
+            <img src="qr.png" alt="QR Code" id="qr-code">
+        </div>
+        <button id="pay-button">Make Payment</button>
+    </div>
+
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Payment Successful!</h2>
+            <p>Your payment has been completed successfully.</p>
+        </div>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+
+</html>
