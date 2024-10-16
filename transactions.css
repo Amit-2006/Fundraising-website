@@ -27,7 +27,6 @@ body {
     overflow: auto;
     padding: 0 1.5rem 0 1.5rem;
     overflow: auto;
-    /* overflow-x: hidden; */
 }
 
 .sidebar-logo {
@@ -105,13 +104,4 @@ body {
     font-size: small;
     padding-left: 1rem;
     cursor: pointer;
-}
-.dashboard-content{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    color: black;
-}
-.dashboard-img img{
-    width: 90px;
 }
