@@ -99,9 +99,34 @@ body {
     padding-right: 0.5rem;
     padding-bottom: 0.5rem;
 }
-.Fundraiser{
+.Fundraiser {
     color: rgb(120, 120, 120);
     font-size: small;
     padding-left: 1rem;
     cursor: pointer;
+}
+
+.dashboard-content h2 {
+    margin-top: 1rem;
+    color: black;
+    background-color: rgb(242, 238, 238);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: rgb(242, 238, 238);
+    color: black;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    /* border-bottom: 1px solid black; */
+}
+
+tr:hover {
+    background-color: rgba(255, 23, 23, 0.1);
 }
